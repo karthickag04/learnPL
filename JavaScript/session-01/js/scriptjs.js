@@ -67,5 +67,52 @@ b=[12,11,25,60];
 console.log(b);
 console.table(b);
 
+console.clear();
+
+// to know what type of values given
+
+a=1;
+console.log(typeof a);
+
+a=1.5;
+console.log(typeof a);
+
+
+a="Raguvaran";
+console.log(a+" : "+typeof a);
+
+a=true;
+console.log(a+" : "+typeof a);
+
+a=[12,15,10];
+console.log(typeof a);
+
+
+a={fname:"ragu", gender:"Male"};
+console.log(typeof a);
+
+// type conversion
+
+a=20;
+console.log(typeof a);
+a=a.toString();
+console.log(typeof a);
+
+a=true;
+console.log(typeof a);
+
+a=parseInt(a);
+console.log(typeof a);
+console.log(a);
+
+a=parseFloat(a);
+console.log(typeof a);
+
+
+a="60"
+d=55;
+a=a+d;
+console.log(a);
+
 
 
