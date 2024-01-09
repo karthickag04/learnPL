@@ -1,4 +1,3 @@
-/*
 //to use console check the below line
 console.log("Welcome to javascript");
 console.log('Welcome to javascript1');
@@ -117,7 +116,7 @@ console.log(a);
 
 
 
-*/
+
 
 
 
@@ -368,17 +367,19 @@ console.clear();
 
 // SWITCH CONDITIONAL STATEMENT
 
-
 function checkingWithSwitch(a)
 {
 
-    //console.log(a);
+    console.log(a, typeof a);
+
+   var a=Number(a);
+    console.log(a, typeof a);
     switch(a){
-        case 's':
+        case 1:
             // statement
             console.log('executed case s', typeof a);
             break;
-        case 'h':
+        case 2:
             // statement
             console.log("case 2 executed",a);
             
@@ -390,9 +391,118 @@ function checkingWithSwitch(a)
         
         default:
             // statement
+            
             alert("cases not in list");
     }
 
 }
-
+console.clear();
 checkingWithSwitch(prompt("Enter the condition value"));
+
+
+
+console.clear();
+
+function checkingWithSwitch(a1,b1,a)
+{
+
+   // var a1, b1;
+
+    switch(a){
+        case 'add':
+            // statement
+            console.log('executed case s', a1+b1);
+            break;
+        case 'subtract':
+            // statement
+            console.log("case 2 executed",a1-b1);
+            
+            break;
+        case 'multiply':
+            // statement
+            console.log("case 3 executed", a1*b1);
+            break;
+        
+        default:
+            // statement
+            
+            alert("operator not in the list");
+    }
+
+}
+console.clear();
+checkingWithSwitch(2,5,"add");
+
+
+
+
+function checkingWithSwitch(a)
+{
+
+   var a1, b1;
+   a1=prompt("enter a1");
+   b1=prompt("enter b1");
+   a1=Number(a1);
+   b1=Number(b1);
+   
+
+    switch(a){
+        case 'add':
+            // statement
+            console.log('added value of ',a1, 'and ',b1,'is .. ', a1+b1);
+            break;
+        case 'subtract':
+            // statement
+            console.log('subtracted value of ',a1, 'and ',b1,'is .. ', a1-b1);
+            
+            break;
+        case 'multiply':
+            // statement
+            console.log("case 3 executed", a1*b1);
+            break;
+        
+        default:
+            // statement
+            
+            alert("operator not in the list");
+    }
+
+}
+console.clear();
+checkingWithSwitch(prompt("Enter Operator"));
+
+
+// increment operator
+
+var a=2;
+a++;
+console.log(a);
+
+var a=2;
+var x=a++;
+console.log('increment with assignment',x);
+console.log('increment with assignment',a);
+
+console.log(x+a);
+
+var a=2;
+++a;
+console.log('prefix increment',a);
+
+var a=2;
+var x=++a;
+console.log('prefix increment with assignment',x);
+console.log('prefix increment with assignment',a);
+
+console.log(x+a);
+
+//decrement 
+var a=2;
+a--;
+console.log(a);
+
+
+var a=2;
+var x=--a;
+console.log('increment with assignment',x);
+console.log('increment with assignment',a);
