@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Demo</title>
+</head>
+<body>
+    <h1>Welcome <br>to <Br>Javascript <br> Demo</h1>
+
+
+  
+            <input type="text" id="v1" name="v1" value="">
+            <input type="text" id="v2" name="v2" value="">
+
+            <input type="submit" value="add" onclick="operatorProgram()">
+            <input type="submit" value="subtract" onclick="operatorProgram1()">
+            <input type="submit" value="multiply" onclick="operatorProgram2()">
+            <input type="submit" value="division" onclick="operatorProgram3()">
+            
+
+
+
+    <p id="result"> for output</p>
+    <script>
+        
+            
+       function operatorProgram()
+
+        {
+            var value1=document.getElementById("v1").value;
+            var value2=document.getElementById("v2").value;
+            value1=Number(value1);
+            value2=Number(value2);
+            
+            //console.log("welcome to GU output",value1);
+
+            document.getElementById("result").innerHTML= "Added value of " + value1 + " and " + value2 + " is ...  " + (value1+value2);
+        }
+
+        function operatorProgram1()
+
+        {
+            var value1=document.getElementById("v1").value;
+            var value2=document.getElementById("v2").value;
+            value1=Number(value1);
+            value2=Number(value2);
+            
+            //console.log("welcome to GU output",value1);
+
+            document.getElementById("result").innerHTML= "Subtracted value of " + value1 + " and " + value2 + " is ...  " + (value1-value2);
+        }
+
+        function operatorProgram2()
+
+        {
+            var value1=document.getElementById("v1").value;
+            var value2=document.getElementById("v2").value;
+            value1=Number(value1);
+            value2=Number(value2);
+            
+            //console.log("welcome to GU output",value1);
+
+            document.getElementById("result").innerHTML= "Multiplied value of " + value1 + " and " + value2 + " is ...  " + (value1*value2);
+        }
+
+        function operatorProgram3()
+
+        {
+            var value1=document.getElementById("v1").value;
+            var value2=document.getElementById("v2").value;
+            value1=Number(value1);
+            value2=Number(value2);
+            
+            //console.log("welcome to GU output",value1);
+
+            document.getElementById("result").innerHTML= "Division of " + value1 + " and " + value2 + " is ...  " + (value1/value2);
+        }
+
+    </script>
+</body>
+</html>
