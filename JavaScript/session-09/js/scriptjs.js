@@ -44,12 +44,11 @@ var listofcars={name:"bmw", price:"1c", mdate:"2020"}
 
 console.log(listofcars);
 console.table(listofcars);
+console.clear();
 
 for (let property in listofcars){
     console.log(property + " : " + listofcars[property]);
 }
-
-
 
 
 
