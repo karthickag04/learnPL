@@ -1,0 +1,128 @@
+.title img{
+	width: 125px;
+	height: 50px;
+	padding-right: auto;
+}
+
+.title{
+	display: flex;
+	justify-content: center;
+	place-items: center;
+	gap: 15px;
+	background-color: whitesmoke;
+	border-radius: 0;
+	border: 3px solid lightblue;
+	padding-right: auto;
+	padding: 20px;	
+}
+
+.sample{
+	background-color: lightblue;
+}
+
+h1 a{
+	text-decoration: none;
+	color: whitesmoke;	
+}
+
+.par{
+	text-align: center;
+	color: #000080;
+	padding: auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #000080;
+	padding: 10px;
+	float: left;
+}
+
+
+li a.hover{
+	background-color: grey;
+	color: whitesmoke;
+}
+
+.pay{
+	float: right;
+	display: flex;
+}
+
+.search{
+	padding: 15PX;
+}
+
+.nav{
+	border: 2px solid lightblue;
+	background-color: whitesmoke;
+	border-radius: 0;
+}
+
+.search{
+	padding: 10px;
+	border-radius: 5px;
+}
+
+/* slide show codes */
+
+body {
+    margin: 5;
+    padding: 0;
+    font-family: Arial, sans-serif;
+	background-color: whitesmoke;
+  }
+
+
+  #slidshw-ctr {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+  }
+
+  .slide {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+  }
+
+
+#slidshw-ctr img {
+    width: 100%;
+    height: 100%;
+  }
+  
+
+
+
+
+  .imagecontainer{
+	width: 100%;
+  }
+
+  .swiper {
+	width: 1000px;
+	height: 300px;
+  }
+
+  .swiper .swiper-button-prev,  .swiper .swiper-button-next{
+	color: #fff;
+
+
+  }
+
+  .swiper-pagination-bullet-active{
+	color: #fff;
+  }
+
