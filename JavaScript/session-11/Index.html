@@ -19,8 +19,8 @@
 <div class="sample"><br></div>
 
 	<ul class="nav">
-		<li><a href="#">Home</li>
-		<li><a href="#">About Us</li>
+		<li><a href="Index.html">Home</li>
+		<li><a href="aboutus.html">About Us</li>
 		<li><a href="#">Menu</li>	
 		<li><a href="#">Our Services</li>
 		<li><a href="#">Contact Us</li>
@@ -38,7 +38,7 @@
 
 	<div class="imagecontainer">
 
-		<div class="swiper">
+		<div id="swiper" class="swiper">
 			<!-- Additional required wrapper -->
 			<div class="swiper-wrapper">
 			  <!-- Slides -->
@@ -74,6 +74,11 @@
   // Optional parameters
   direction: 'horizontal',
   loop: true,
+  autoplay: {
+    delay: 2000,
+  },
+    
+   
 
   // If we need pagination
   pagination: {
@@ -92,6 +97,16 @@
     el: '.swiper-scrollbar',
   },
 });
+
+swiper.autoplay.stop();
+      const swiperContainer = document.getElementById("swiper");
+      swiperContainer.addEventListener("mouseover", (e) => {
+       
+		swiper.autoplay.stop();
+      });
+      swiperContainer.addEventListener("mouseout", () => {
+        swiper.autoplay.start();
+      });
 </script>
 
 </body>
