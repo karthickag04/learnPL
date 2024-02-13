@@ -1,0 +1,14 @@
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-01\firstconsoledemo\bin\Debug\net7.0\firstconsoledemo.exe
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-01\firstconsoledemo\bin\Debug\net7.0\firstconsoledemo.deps.json
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-01\firstconsoledemo\bin\Debug\net7.0\firstconsoledemo.runtimeconfig.json
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-01\firstconsoledemo\bin\Debug\net7.0\firstconsoledemo.dll
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-01\firstconsoledemo\bin\Debug\net7.0\firstconsoledemo.pdb
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-01\firstconsoledemo\obj\Debug\net7.0\firstconsoledemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-01\firstconsoledemo\obj\Debug\net7.0\firstconsoledemo.AssemblyInfoInputs.cache
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-01\firstconsoledemo\obj\Debug\net7.0\firstconsoledemo.AssemblyInfo.cs
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-01\firstconsoledemo\obj\Debug\net7.0\firstconsoledemo.csproj.CoreCompileInputs.cache
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-01\firstconsoledemo\obj\Debug\net7.0\firstconsoledemo.dll
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-01\firstconsoledemo\obj\Debug\net7.0\refint\firstconsoledemo.dll
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-01\firstconsoledemo\obj\Debug\net7.0\firstconsoledemo.pdb
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-01\firstconsoledemo\obj\Debug\net7.0\firstconsoledemo.genruntimeconfig.cache
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-01\firstconsoledemo\obj\Debug\net7.0\ref\firstconsoledemo.dll
