@@ -1,0 +1,14 @@
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-04\bin\Debug\net7.0\session-04.exe
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-04\bin\Debug\net7.0\session-04.deps.json
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-04\bin\Debug\net7.0\session-04.runtimeconfig.json
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-04\bin\Debug\net7.0\session-04.dll
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-04\bin\Debug\net7.0\session-04.pdb
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-04\obj\Debug\net7.0\session-04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-04\obj\Debug\net7.0\session-04.AssemblyInfoInputs.cache
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-04\obj\Debug\net7.0\session-04.AssemblyInfo.cs
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-04\obj\Debug\net7.0\session-04.csproj.CoreCompileInputs.cache
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-04\obj\Debug\net7.0\session-04.dll
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-04\obj\Debug\net7.0\refint\session-04.dll
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-04\obj\Debug\net7.0\session-04.pdb
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-04\obj\Debug\net7.0\session-04.genruntimeconfig.cache
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-04\obj\Debug\net7.0\ref\session-04.dll
