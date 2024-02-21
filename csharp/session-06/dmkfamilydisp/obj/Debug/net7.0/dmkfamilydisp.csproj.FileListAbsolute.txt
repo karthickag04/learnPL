@@ -1,0 +1,14 @@
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-06\dmkfamilydisp\bin\Debug\net7.0\dmkfamilydisp.exe
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-06\dmkfamilydisp\bin\Debug\net7.0\dmkfamilydisp.deps.json
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-06\dmkfamilydisp\bin\Debug\net7.0\dmkfamilydisp.runtimeconfig.json
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-06\dmkfamilydisp\bin\Debug\net7.0\dmkfamilydisp.dll
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-06\dmkfamilydisp\bin\Debug\net7.0\dmkfamilydisp.pdb
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-06\dmkfamilydisp\obj\Debug\net7.0\dmkfamilydisp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-06\dmkfamilydisp\obj\Debug\net7.0\dmkfamilydisp.AssemblyInfoInputs.cache
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-06\dmkfamilydisp\obj\Debug\net7.0\dmkfamilydisp.AssemblyInfo.cs
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-06\dmkfamilydisp\obj\Debug\net7.0\dmkfamilydisp.csproj.CoreCompileInputs.cache
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-06\dmkfamilydisp\obj\Debug\net7.0\dmkfamilydisp.dll
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-06\dmkfamilydisp\obj\Debug\net7.0\refint\dmkfamilydisp.dll
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-06\dmkfamilydisp\obj\Debug\net7.0\dmkfamilydisp.pdb
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-06\dmkfamilydisp\obj\Debug\net7.0\dmkfamilydisp.genruntimeconfig.cache
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-06\dmkfamilydisp\obj\Debug\net7.0\ref\dmkfamilydisp.dll
