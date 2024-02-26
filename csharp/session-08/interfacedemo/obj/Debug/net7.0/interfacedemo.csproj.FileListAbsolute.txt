@@ -1,0 +1,14 @@
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-08\interfacedemo\bin\Debug\net7.0\interfacedemo.exe
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-08\interfacedemo\bin\Debug\net7.0\interfacedemo.deps.json
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-08\interfacedemo\bin\Debug\net7.0\interfacedemo.runtimeconfig.json
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-08\interfacedemo\bin\Debug\net7.0\interfacedemo.dll
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-08\interfacedemo\bin\Debug\net7.0\interfacedemo.pdb
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-08\interfacedemo\obj\Debug\net7.0\interfacedemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-08\interfacedemo\obj\Debug\net7.0\interfacedemo.AssemblyInfoInputs.cache
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-08\interfacedemo\obj\Debug\net7.0\interfacedemo.AssemblyInfo.cs
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-08\interfacedemo\obj\Debug\net7.0\interfacedemo.csproj.CoreCompileInputs.cache
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-08\interfacedemo\obj\Debug\net7.0\interfacedemo.dll
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-08\interfacedemo\obj\Debug\net7.0\refint\interfacedemo.dll
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-08\interfacedemo\obj\Debug\net7.0\interfacedemo.pdb
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-08\interfacedemo\obj\Debug\net7.0\interfacedemo.genruntimeconfig.cache
+C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\project\learnPL\csharp\session-08\interfacedemo\obj\Debug\net7.0\ref\interfacedemo.dll
