@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\mvcchsarpv1.props" />
+</Project>
