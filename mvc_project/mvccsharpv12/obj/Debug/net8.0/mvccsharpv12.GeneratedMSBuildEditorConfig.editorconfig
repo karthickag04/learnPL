@@ -1,0 +1,107 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = mvccsharpv12
+build_property.RootNamespace = mvccsharpv12
+build_property.ProjectDir = C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\learnPL\mvc_project\mvccsharpv12\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\learnPL\mvc_project\mvccsharpv12
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Home/CreateCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVDb3Vyc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Home/CreateTrainer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVUcmFpbmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Home/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Home/ManageTrainer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYW5hZ2VUcmFpbmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Home/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Trainee/Assignment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxBc3NpZ25tZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Trainee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Trainee/Materials.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxNYXRlcmlhbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Trainer/CreateAssignment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxDcmVhdGVBc3NpZ25tZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Trainer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Trainer/PostMaterials.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxQb3N0TWF0ZXJpYWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Trainer/StudentDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxTdHVkZW50RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Trainer/ViewAssignment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxWaWV3QXNzaWdubWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-squ23eofph
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Shared/_LayoutTrainee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRUcmFpbmVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-2us9v85wh1
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/mvccsharpv12/Views/Shared/_LayoutTrainer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRUcmFpbmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-k03xfks3v2
