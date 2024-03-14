@@ -18,6 +18,7 @@ namespace mvccsharpv12.Controllers
             _logger = logger;
         }
 
+        [Route("Trainer/Index")]
         public IActionResult Index()
         {
             return View();

@@ -1,11 +1,15 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using mvccsharpv12.Models;
 
 namespace mvccsharpv12.Controllers;
 
 public class HomeController : Controller
 {
+    SqlConnection con=new SqlConnection();
+    SqlCommand com=new SqlCommand();
+    SqlDataReader? dr;
     private readonly ILogger<HomeController> _logger;
 
     public HomeController(ILogger<HomeController> logger)
@@ -19,21 +23,44 @@ public class HomeController : Controller
         return View();
     }
 
+    void connectionStr(){
+        con.ConnectionString="data source=192.168.1.240\\SQLEXPRESS ; database=tmys; User ID=CADBATCH01; Password=CAD@123pass; TrustServerCertificate=True; ";
+
+    }
+
     [HttpPost]
     public IActionResult VerifyLogin(LoginModel lmodel){
 
-        if(lmodel.username=="Trainer"){
 
-            return RedirectToAction("Index", "Trainer");
-        }
-        else if (lmodel.username=="Trainee"){
+        connectionStr();
+        con.Open();
+       
+        com.Connection=con;
+        com.CommandText="select * from tbl_login where username='" + lmodel.username + "' and password='" + lmodel.password + "' ;";
+        dr=com.ExecuteReader();
+        if(dr.Read()){
+        
+            if(lmodel.username=="trainer"){
+     
+                return RedirectToAction("Index", "Trainer");
+            }
+            else if (lmodel.username=="trainee"){
 
-             return RedirectToAction("Index", "Trainee");
+                return RedirectToAction("Index", "Trainee");
+            }
+            else{
+                return RedirectToAction("Index", "Home");
+            }
+
+
         }
         else{
-             return RedirectToAction("Index", "Home");
+            con.Close();
+            return View("Error");
         }
 
+
+      
        
     }
 
