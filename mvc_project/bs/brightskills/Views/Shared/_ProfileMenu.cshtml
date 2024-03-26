@@ -1,0 +1,10 @@
+@model brightskills.Models.UserProfileModel
+
+<div id="profile-menu">
+    <img src="@Model.ProfilePictureUrl" alt="Profile Picture" />
+    <ul>
+        <li>@Html.ActionLink("Username: " + Model.Username, "Profile", "User")</li>
+        <li>@Html.ActionLink("Change Password", "ChangePassword", "Account")</li>
+        <li>@Html.ActionLink("Log Out", "LogOut", "Account")</li>
+    </ul>
+</div>

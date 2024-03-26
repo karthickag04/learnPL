@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - brightskills</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/brightskills.styles.css" asp-append-version="true" />
+
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/font-awesome.min.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <!-- Navbar content -->
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <!-- Branding -->
+                <a class="navbar-brand" asp-area="" asp-controller="Admin" asp-action="Dashboard">brightskills</a>
+                
+                <!-- Toggle button for mobile view -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Navbar collapse content -->
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <!-- Dashboard -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" asp-area="" asp-controller="Admin" asp-action="Dashboard">Dashboard</a>
+                        </li>
+                        
+                        <!-- Manage Courses dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="manageCoursesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Manage Courses</a>
+                            <ul class="dropdown-menu" aria-labelledby="manageCoursesDropdown">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="ManageCourses">Add Courses</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="UpdateCourses">Update Courses</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="DeleteCourses">Delete Courses</a></li>
+                            </ul>
+                        </li>
+                        
+                        <!-- Manage Sessions submenu -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="manageSessionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Manage Sessions</a>
+                            <ul class="dropdown-menu" aria-labelledby="manageSessionsDropdown">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="SessionOverview">Session Overview</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="CreateNewSession">Create New Session</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="EditSession">Edit Session</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="CancelSession">Cancel Session</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="SessionDetails">Session Details</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="EnrollmentManagement">Enrollment Management</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="SessionAttendance">Session Attendance</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="SessionReports">Session Reports</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="SessionNotifications">Session Notifications</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="SessionCalendarView">Session Calendar View</a></li>
+                            </ul>
+                        </li>
+                        
+                        <!-- Other menu items -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="ManageUsers">Manage Users</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Reports">Reports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Settings">Settings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index">Login Controller</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Main content -->
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - brightskills - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

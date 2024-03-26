@@ -1,0 +1,155 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = brightskills
+build_property.RootNamespace = brightskills
+build_property.ProjectDir = C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\Practice\brightskills\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\Practice\brightskills
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Admin/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Admin/ManageCourses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlQ291cnNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Admin/ManageSessions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlU2Vzc2lvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Admin/ManageUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Admin/Reports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVwb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Admin/Settings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2V0dGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Login/Aboutus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQWJvdXR1cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Login/Contactus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQ29udGFjdHVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Login/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Login/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Login/Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2VydmljZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Shared/_ProfileMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9maWxlTWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Trainee/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Trainee/EnrollinCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxFbnJvbGxpbkNvdXJzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Trainee/Grades.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxHcmFkZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Trainee/MyCourses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxNeUNvdXJzZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Trainee/Resources.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxSZXNvdXJjZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Trainee/ViewSessionSchedule.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxWaWV3U2Vzc2lvblNjaGVkdWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Trainer/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Trainer/Grades.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxHcmFkZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Trainer/ManageTrainees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxNYW5hZ2VUcmFpbmVlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Trainer/MyCourses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxNeUNvdXJzZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Trainer/Resources.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxSZXNvdXJjZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Trainer/ScheduleSessions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxTY2hlZHVsZVNlc3Npb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-efecqel98m
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Shared/_LayoutLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-so182n2wnk
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Shared/_LayoutTrainee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRUcmFpbmVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-16kk9qjodv
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/Practice/brightskills/Views/Shared/_LayoutTrainer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRUcmFpbmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-g987fat5sw
