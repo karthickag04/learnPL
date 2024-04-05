@@ -10,7 +10,7 @@ namespace brightskills.Controllers
 
     [Route("Trainee/Dashboard")]
       public IActionResult Dashboard(){
-        return View();
+        return View("Dashboard", "_LayoutTrainee");
       }
       public IActionResult EnrollinCourse(){
         return View();

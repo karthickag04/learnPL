@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("brightskills")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc82183ac4d7535eabd551f35ea4509f024d847c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30849f401cb2f545b053f65b1828fc7308f50834")]
 [assembly: System.Reflection.AssemblyProductAttribute("brightskills")]
 [assembly: System.Reflection.AssemblyTitleAttribute("brightskills")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

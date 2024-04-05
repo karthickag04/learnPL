@@ -37,6 +37,70 @@ public class LoginController : Controller
         return View();
     }
 
+
+     public IActionResult VerifyLogin(LoginModel lmodel)
+    {
+        conStr();
+        con.Open();
+        cmd.Connection=con;
+        cmd.CommandText="select * from tbl_login where username=@uname and password=@pass";
+        cmd.Parameters.AddWithValue("@uname", lmodel.username);
+        cmd.Parameters.AddWithValue("@pass", lmodel.password);
+
+        dr=cmd.ExecuteReader();
+
+        if(dr.Read()){
+
+            
+            // con.Close();
+
+            string? jobrolecheck=dr["jobrole"].ToString();
+            string? UserName1=dr["username"].ToString();
+            ViewData["UserName"]=UserName1;
+            con.Close();
+         
+
+
+            if(jobrolecheck=="trainer")
+            {
+                
+            return RedirectToAction("Dashboard","Trainer");
+            }
+            else if(jobrolecheck=="admin"){
+                
+                return RedirectToAction("Dashboard","Admin");
+            }
+                        
+            else{
+         
+                    con.Close();
+                    return View("Error");
+    
+             }
+
+        }
+        
+        else{
+              
+                dr.Close();
+                cmd.CommandText="select * from tbl_reg_users where user_name=@u_name and password=@_pass";
+                cmd.Parameters.AddWithValue("@u_name", lmodel.username);
+                cmd.Parameters.AddWithValue("@_pass", lmodel.password);
+                dr=cmd.ExecuteReader();
+                if(dr.Read()){
+                    con.Close();
+                    return RedirectToAction("Dashboard","Trainee");
+                }
+                else{
+                    con.Close();
+                    return View("Error");
+                 }
+        }   
+            
+
+        
+    }
+
     [HttpGet]
      public IActionResult Register()
     {
@@ -50,22 +114,41 @@ public class LoginController : Controller
     
     [HttpPost]
      public IActionResult RegisterDB(RegisterModel rmodel)
-    {   
-
+    {   // // Method 01
         // conStr();
+        // con.Open();
         // cmd.Connection=con;
-        // cmd.CommandText="INSERT INTO tbl_reg_users (full_name, user_name, email_id, contact_number, password)VALUES (@Fullname, @Username, @emailid, @contactnumber, @password);";
-        // cmd.Parameters.
+        // cmd.CommandText="insert into tbl_reg_users(full_name,user_name ,email_id,contact_number,password) values ('"+rmodel.FullName+"','"+rmodel.UserName+"','"+rmodel.Email+"','"+rmodel.ContactNumber+"','"+rmodel.Password+"') ";
 
-
-        // if(true){
+        // int rowAffected=cmd.ExecuteNonQuery();
+        // if(rowAffected>0){
         //     return RedirectToAction("Login");
         // }
         // else{
-
-        //     return RedirectToAction("Error");
+        //     return View("Error");
         // }
-        return View();
+
+
+        //Method 02
+        conStr();
+        con.Open();
+        cmd.Connection=con;
+        cmd.CommandText="insert into tbl_reg_users(full_name,user_name ,email_id,contact_number,password) values (@fullname,@username,@email,@contactnumber,@password) ";
+        cmd.Parameters.AddWithValue("@fullname",rmodel.FullName);
+        cmd.Parameters.AddWithValue("@username",rmodel.UserName);
+        cmd.Parameters.AddWithValue("@email",rmodel.Email);
+        cmd.Parameters.AddWithValue("@contactnumber",rmodel.ContactNumber);
+        cmd.Parameters.AddWithValue("@password",rmodel.Password);
+
+        int rowAffected=cmd.ExecuteNonQuery();
+        if(rowAffected>0){
+            con.Close();
+            return RedirectToAction("Login");
+        }
+        else{
+            con.Close();
+            return View("Error");
+        }
         
     }
 

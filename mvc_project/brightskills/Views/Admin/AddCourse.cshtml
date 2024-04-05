@@ -1,0 +1,87 @@
+@model List<brightskills.Models.AddCourseModel>
+
+@{
+    ViewData["Title"]="Add Course Page";
+   
+}
+
+
+<div class="w3l-signinform">
+    <!-- container -->
+    <div class="wrapper row">
+        <!-- main content -->
+            
+          
+                <div class="col-md-6">   
+                            <h1>Course List </h1>
+               
+                            <table class="table ">
+                            <thead class="text-white">
+                                <tr>
+                                <th>Course ID</th>
+                                <th>Course Name</th>
+                                <th>Course Duration</th>
+                                <th>Course Description</th>
+                                <th>Trainer Name</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-warning">
+
+                                @foreach (var course in Model)
+                               {
+                                <tr>
+                                <td>@course.course_id</td>
+                                <td>@course.course_name</td>
+                                <td>@course.course_duration</td>
+                                <td>@course.course_description</td>
+                                <td><img src="@course.trainer_name" width="50px"  alt=""></td>
+                                
+                                
+                                </tr>
+                                }
+                            </tbody>
+                            </table>
+
+
+                           
+                        </div>
+
+                        <div class="w3l-form-info col-md-6">
+                            <div class="w3_info">
+                                <h1>Add Course Details</h1>
+                                  <h2>Course Details</h2>
+                                <form action="@Url.Action("AddCourseIn", "Admin")" method="post">
+                                    <div class="input-group">
+                                        <span><i class="fa fa-user" aria-hidden="true"></i></span>
+                                        <input type="text" name="course_name" placeholder="Course Name" required="">
+                                    </div>
+                                    <div class="input-group">
+                                        <span><i class="fa fa-user" aria-hidden="true"></i></span>
+                                        <input type="text" name="course_duration" placeholder="Course Duration" required="">
+                                    </div>
+                                    <div class="input-group">
+                                        <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                                        <input type="text" name="course_description" placeholder="Course Description" required="">
+                                    </div>
+                                    <div class="input-group">
+                                        <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                                        <input type="text" name="trainer_name" placeholder="Trainer Name" required="">
+                                    </div>
+
+                                    <button class="btn btn-primary btn-block" type="submit">Add Course</button>
+                                </form>
+                            
+                            </div>
+                        </div>
+
+
+        <!-- //main content -->
+    </div>
+    <!-- //container -->
+    <!-- footer -->
+    <div class="footer">
+        <p>&copy; 2021 Gathering Log In form. All Rights Reserved | Design by <a href="https://w3layouts.com/"
+                target="blank">W3layouts</a></p>
+    </div>
+    <!-- footer -->
+</div>

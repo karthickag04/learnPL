@@ -14,9 +14,13 @@ build_property.EnableComHosting =
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\karthickag04\Desktop\BSDEMO\cadbatch01\learnPL\mvc_project\brightskills
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/brightskills/Views/Admin/AddCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkQ291cnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/karthickag04/Desktop/BSDEMO/cadbatch01/learnPL/mvc_project/brightskills/Views/Admin/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==

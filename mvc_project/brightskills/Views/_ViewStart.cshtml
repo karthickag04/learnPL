@@ -1,3 +1,17 @@
 ﻿@{
-    Layout = "_LayoutLogin";
+    string layout = "_LayoutLogin"; // Default layout
+
+    string? controllerName = ViewContext.RouteData.Values["controller"] as string;
+
+    // Check for the controller name to set the desired layout
+    if (controllerName == "Admin")
+    {
+        layout = "_LayoutAdmin";
+    }
+    else if (controllerName == "Trainee")
+    {
+        layout = "_LayoutTrainee";
+    }
+
+    Layout = layout;
 }
